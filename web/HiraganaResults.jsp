@@ -22,16 +22,16 @@
             String test = HiraganaRomaji[zahl];
             String Ergebnis = "";
             if (HiraganaInput.equals(test)) {
-                Ergebnis = "Richtig";
+                Ergebnis = "True";
             } else {
-                Ergebnis = "Falsch";
+                Ergebnis = "False";
             }
         %>
         <section>
 
-            <h1><span style="color: #8A244B;"><%= HiraganaInput%></span> ist <%= Ergebnis%></h1>
+            <h1><span style="color: #8A244B;"><%= HiraganaInput%></span> is <%= Ergebnis%></h1>
             <br>
-            <h2> Es wahr <span style="color: #8A244B;"><%= test%></span></h2>
+            <h2> It was <span style="color: #8A244B;"><%= test%></span></h2>
             <a href="Hiragana.jsp"><button id="idk" >back</button></a>
         </section>
     </body>
